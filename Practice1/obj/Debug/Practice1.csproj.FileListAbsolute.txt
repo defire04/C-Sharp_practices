@@ -1,0 +1,7 @@
+C:\Users\DeFire04\Programing\С# University\PracticalTask\Practice1\bin\Debug\Practice1.exe.config
+C:\Users\DeFire04\Programing\С# University\PracticalTask\Practice1\bin\Debug\Practice1.exe
+C:\Users\DeFire04\Programing\С# University\PracticalTask\Practice1\bin\Debug\Practice1.pdb
+C:\Users\DeFire04\Programing\С# University\PracticalTask\Practice1\obj\Debug\Practice1.csproj.AssemblyReference.cache
+C:\Users\DeFire04\Programing\С# University\PracticalTask\Practice1\obj\Debug\Practice1.csproj.CoreCompileInputs.cache
+C:\Users\DeFire04\Programing\С# University\PracticalTask\Practice1\obj\Debug\Practice1.exe
+C:\Users\DeFire04\Programing\С# University\PracticalTask\Practice1\obj\Debug\Practice1.pdb

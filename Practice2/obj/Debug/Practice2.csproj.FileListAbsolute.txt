@@ -1,0 +1,6 @@
+C:\Users\DeFire04\Programing\С# University\PracticalTask\Practice2\bin\Debug\Practice2.exe.config
+C:\Users\DeFire04\Programing\С# University\PracticalTask\Practice2\bin\Debug\Practice2.exe
+C:\Users\DeFire04\Programing\С# University\PracticalTask\Practice2\bin\Debug\Practice2.pdb
+C:\Users\DeFire04\Programing\С# University\PracticalTask\Practice2\obj\Debug\Practice2.csproj.CoreCompileInputs.cache
+C:\Users\DeFire04\Programing\С# University\PracticalTask\Practice2\obj\Debug\Practice2.exe
+C:\Users\DeFire04\Programing\С# University\PracticalTask\Practice2\obj\Debug\Practice2.pdb
