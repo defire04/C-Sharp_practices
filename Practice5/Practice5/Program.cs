@@ -22,10 +22,7 @@ namespace Practice5
             int rows = arr.GetUpperBound(0) + 1;    // количество строк
             int columns = arr.Length / rows;        // количество столбцов
 
-            int count = 0;
-            int tempForRows = 0;
-
-
+           
             ArrayList ressultListForRows = new ArrayList();
             ArrayList ressultListForColumns = new ArrayList();
 
@@ -37,7 +34,7 @@ namespace Practice5
                 for (int j = 0; j < columns; j++)
                 {
 
-                     Console.Write(arr[i, j] + " ");
+                    Console.Write(arr[i, j] + " ");
                     forRows[j] = arr[i, j];
 
 

@@ -1,0 +1,6 @@
+D:\Programming\C#\Practice6\Practice6\bin\Debug\Practice6.exe.config
+D:\Programming\C#\Practice6\Practice6\bin\Debug\Practice6.exe
+D:\Programming\C#\Practice6\Practice6\bin\Debug\Practice6.pdb
+D:\Programming\C#\Practice6\Practice6\obj\Debug\Practice6.csproj.CoreCompileInputs.cache
+D:\Programming\C#\Practice6\Practice6\obj\Debug\Practice6.exe
+D:\Programming\C#\Practice6\Practice6\obj\Debug\Practice6.pdb
