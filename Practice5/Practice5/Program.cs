@@ -33,10 +33,8 @@ namespace Practice5
             {
                 for (int j = 0; j < columns; j++)
                 {
-
                     Console.Write(arr[i, j] + " ");
                     forRows[j] = arr[i, j];
-
 
                 }
                 if (checkIfNumbersIncreaseMonotonically(forRows) || checkIfNumbersDecreaseMonotonically(forRows)){

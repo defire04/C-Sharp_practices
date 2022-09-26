@@ -33,7 +33,10 @@ namespace Practice6
             flipArrWithRef(ref strArr);
             printArr(strArr);
 
-
+            int[] arr  = new int [4]{1,2,3,4};
+            Console.WriteLine(arr.Length);
+            ChangeSizeOfArr(out arr, 1);
+            Console.WriteLine(arr.Length);
 
             Console.ReadKey();
         }
@@ -64,7 +67,6 @@ namespace Practice6
 
         static string flip(double doubl)
         {
-
             string [] strArr = doubl.ToString().Split(',');
             string result = "";
 
@@ -105,7 +107,17 @@ namespace Practice6
         }
 
 
-            static void printArr<T>(T[] arr)
+        static void ChangeSizeOfArr(out int [] arr, int newSize)
+        {
+            arr = new int [newSize];
+            for (int i = 0; i < newSize; i++)
+            {
+                arr[i] = 0;
+            }
+        }
+
+
+        static void printArr<T>(T[] arr)
         {
             foreach(T element in  arr)
             {
@@ -115,4 +127,8 @@ namespace Practice6
             Console.WriteLine();
         }
     }
+
+
+
+
 }

@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 namespace Practice4
 {
     class Program {
+
+        //Даний масив цілих чисел розміру N. Визначити максимальну кількість його однакових елементів. 
         static void Main(string[] args) {
             int mostOtenNumber = 0;
             int highestNumberOfRepetitions = 0;

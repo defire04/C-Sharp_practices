@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Pracice8",
-    "\\Pracice8\\Pracice8",
-    "\\Pracice8\\Pracice8\\controllers",
-    "\\Practice7\\Practice7"
+    "\\Practice8",
+    "\\Practice8\\Practice8",
+    "\\Practice8\\Practice8\\controllers"
   ],
-  "SelectedNode": "\\Pracice8\\Pracice8\\controllers\\GarageController.cs",
+  "SelectedNode": "\\Practice8\\Practice8\\controllers\\GarageController.cs",
   "PreviewInSolutionExplorer": false
 }
