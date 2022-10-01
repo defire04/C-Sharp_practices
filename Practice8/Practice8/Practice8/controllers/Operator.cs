@@ -15,12 +15,12 @@ namespace Practice8.controllers
             phone.Characteristics();
 
 
-            Console.WriteLine(personReceivingACall.Name + ", would you like to receive a call?");
-            if (Console.ReadLine().ToLower().Equals("yes"))
-            {
-                AcceptCall(caller, personReceivingACall);
-            }
-
+            //Console.WriteLine(personReceivingACall.Name + ", would you like to receive a call?");
+            //if (Console.ReadLine().ToLower().Equals("yes"))
+            //{
+            //    AcceptCall(caller, personReceivingACall);
+            //}
+            AcceptCall(caller, personReceivingACall);
         }
 
         public void AcceptCall(Person caller, Person personReceivingACall)
@@ -29,9 +29,12 @@ namespace Practice8.controllers
             phone.AcceptCall();
             phone.Characteristics();
 
-          if (phone.GetType() == typeof(PushButtonTelephone))
+            if (phone.GetType() == typeof(PushButtonTelephone))
             {
                 ((PushButtonTelephone)phone).ShowWhoCall(caller);
+            } else if (phone.GetType() == typeof(MobilePhoneWithBlackScreen))
+            {
+                ((MobilePhoneWithBlackScreen)phone).ShowWhoCall(caller);
             }
 
 

@@ -7,8 +7,7 @@ namespace Practice8.models
 {
     class RotaryPhone : Phone
     {
-        private List<string> symbols = new List<string>();
-        public List<string> Symbols { get => symbols; set => symbols = value; }
+        public List<string> Symbols { get; set; }
 
 
         public RotaryPhone(long number)
@@ -30,9 +29,9 @@ namespace Practice8.models
         }
 
 
-        public new void Characteristics()
+        public override void Characteristics()
         {
-            base.Characteristics();
+            Console.WriteLine("Number: " + this.Number);
             Console.Write("Symbols : ");
             views.View.PrintList(this.Symbols);
         }

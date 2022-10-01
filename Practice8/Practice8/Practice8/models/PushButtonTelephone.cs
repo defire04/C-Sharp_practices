@@ -29,7 +29,6 @@ namespace Practice8.models
             Console.WriteLine("Call from Push-button Phone!");
         }
 
-
     }
 
 }

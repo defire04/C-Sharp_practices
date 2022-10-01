@@ -12,9 +12,7 @@ namespace Practice8.models
         public abstract void Call();
         public abstract void AcceptCall();
 
-        public void Characteristics()
-        {
-            Console.WriteLine("Number: " + this.Number);
-        }
+        public abstract void Characteristics();
+      
     }
 }
