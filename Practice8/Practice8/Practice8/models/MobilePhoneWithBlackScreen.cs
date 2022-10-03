@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Practice8.interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Practice8.models
 {
-    class MobilePhoneWithBlackScreen : PushButtonTelephone
+    class MobilePhoneWithBlackScreen : PushButtonPhone, ISms
     {
 
         public string ScreenResolution { get; set; }
@@ -40,6 +41,20 @@ namespace Practice8.models
             Console.WriteLine("Screen Resolution: " + this.ScreenResolution 
                 + "\nPhysical Screen Size: " + this.ScreenResolution 
                 + "\nColor of device: " + this.ColorOfDevice);
+        }
+
+        public string SendMessage()
+        {
+            Console.Write("Enter the text of the message you want to send: ");
+            string message = Console.ReadLine();
+            Console.WriteLine("Send message with text: " + message);
+
+            return message;
+        }
+
+        public void AcceptMessage(string message, Person sender)
+        {
+             Console.WriteLine("Message received from {0}: " + message, sender.Name);
         }
     }
 }   

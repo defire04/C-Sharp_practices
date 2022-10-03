@@ -4,10 +4,10 @@ using System.Text;
 
 namespace Practice8.models
 {
-    class PushButtonTelephone : RotaryPhone
+    class PushButtonPhone : RotaryPhone
     {
 
-        public PushButtonTelephone(long number)
+        public PushButtonPhone(long number)
              : base(number)
         {
             Symbols.Add("*");

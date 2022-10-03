@@ -10,19 +10,20 @@ namespace Practice8
     {
         static void Main(string[] args)
         {
-            Phone dimasPhone = new PushButtonTelephone(380979779777);
+            Phone dimasPhone = new MobilePhoneWithBlackScreen(380979779777, "480×800", 3.5, "black");
             Person dima = new Person("Dima", dimasPhone);
+
 
             Operator kyivstar = new Operator();
 
             List<Person> peopleWhomDimaCalled = new List<Person>();
             peopleWhomDimaCalled.Add(new Person("Andy", new RotaryPhone(380981111111111)));
-            peopleWhomDimaCalled.Add(new Person("Max", new PushButtonTelephone(3809822222222)));
+            peopleWhomDimaCalled.Add(new Person("Max", new PushButtonPhone(3809822222222)));
             peopleWhomDimaCalled.Add(new Person("Sasha", new MobilePhoneWithBlackScreen(3809822222222, "480×800", 3.5, "black")));
 
 
 
-            Console.WriteLine("Characteristics of Dima's phone" );
+            Console.WriteLine("Characteristics of Dima's phone");
             dima.Phone.Characteristics();
             Console.WriteLine("---------------------------");
 
@@ -32,10 +33,11 @@ namespace Practice8
                 Console.WriteLine("---------------------------");
             }
 
-            
 
+            Console.WriteLine("========================Test SMS================================");
+
+            kyivstar.SendMessage(dima, peopleWhomDimaCalled[2]);
+            kyivstar.SendMessage(dima, peopleWhomDimaCalled[1]);
         }
-
-
     }
 }
