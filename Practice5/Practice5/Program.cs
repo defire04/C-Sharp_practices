@@ -37,7 +37,7 @@ namespace Practice5
                     forRows[j] = arr[i, j];
 
                 }
-                if (checkIfNumbersIncreaseMonotonically(forRows) || checkIfNumbersDecreaseMonotonically(forRows)){
+                if (CheckIfNumbersIncreaseMonotonically(forRows) || CheckIfNumbersDecreaseMonotonically(forRows)){
                     ressultListForRows.Add(i);
                 }
                 Console.WriteLine();
@@ -58,19 +58,10 @@ namespace Practice5
                 for (int i = 0; i < rows; i++)
                 {
 
-                    //  Console.WriteLine(arr[i, j] + " ");
                     forColumns[i] = arr[i, j];
                 }
 
-                //foreach (int b in forColumns)
-                //{
-                //    Console.Write(b);
-                //}
-                //Console.WriteLine(checkWhetherNumbersIncreaseMonotonicallyInRows(forColumns));
-                //Console.WriteLine();
-
-
-                if (checkIfNumbersIncreaseMonotonically(forColumns) || checkIfNumbersDecreaseMonotonically(forColumns))
+                if (CheckIfNumbersIncreaseMonotonically(forColumns) || CheckIfNumbersDecreaseMonotonically(forColumns))
                 {
                     ressultListForColumns.Add(j);
                 }
@@ -84,17 +75,11 @@ namespace Practice5
                 Console.Write(i + " ");
             }
 
-
-            //int[] arr = { 5, 4, 3, 2, 1 };
-            //Console.WriteLine(checkIfNumbersIncreaseMonotonically(arr));
-
-            //Console.WriteLine(checkIfNumbersDecreaseMonotonically(arr));
-
             Console.ReadKey(true);
         }
 
 
-        static bool checkIfNumbersIncreaseMonotonically(int[] arr)
+        static bool CheckIfNumbersIncreaseMonotonically(int[] arr)
         {
             bool flag = true;
 
@@ -108,7 +93,7 @@ namespace Practice5
             return flag;
         }
 
-        static bool checkIfNumbersDecreaseMonotonically(int[] arr)
+        static bool CheckIfNumbersDecreaseMonotonically(int[] arr)
         {
             bool flag = true;
 
