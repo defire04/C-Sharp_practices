@@ -10,7 +10,7 @@ namespace Practice8
     {
         static void Main(string[] args)
         {
-            Phone dimasPhone = new MobilePhoneWithBlackScreen(380979779777, "480×800", 3.5, "black");
+            Phone dimasPhone = new MobilePhoneWithColorScreen(380979779777, "600×1200", 4.5, "black", 1200, true, 390989857675);
             Person dima = new Person("Dima", dimasPhone);
 
 
@@ -19,7 +19,8 @@ namespace Practice8
             List<Person> peopleWhomDimaCalled = new List<Person>();
             peopleWhomDimaCalled.Add(new Person("Andy", new RotaryPhone(380981111111111)));
             peopleWhomDimaCalled.Add(new Person("Max", new PushButtonPhone(3809822222222)));
-            peopleWhomDimaCalled.Add(new Person("Sasha", new MobilePhoneWithBlackScreen(3809822222222, "480×800", 3.5, "black")));
+            peopleWhomDimaCalled.Add(new Person("Sasha", new MobilePhoneWithBlackScreen(38098223333333, "480×800", 3.5, "black")));
+            peopleWhomDimaCalled.Add(new Person("Mary", new MobilePhoneWithColorScreen(380982244444, "560x1000", 4.6, "orange", 1000, false)));
 
 
 
@@ -38,6 +39,11 @@ namespace Practice8
 
             kyivstar.SendMessage(dima, peopleWhomDimaCalled[2]);
             kyivstar.SendMessage(dima, peopleWhomDimaCalled[1]);
+
+            Console.WriteLine("========================Test MMS================================");
+
+            kyivstar.SendMms(dima, peopleWhomDimaCalled[3]);
+            kyivstar.SendMms(dima, peopleWhomDimaCalled[2]);
         }
     }
 }

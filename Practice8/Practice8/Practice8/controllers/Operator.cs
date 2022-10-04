@@ -14,7 +14,7 @@ namespace Practice8.controllers
             phone.Call();
             //phone.Characteristics();
 
-            //Console.WriteLine(personReceivingACall.Name + ", would you like to receive a call?");
+            //Console.WriteLine(personReceivingACall.Name + ", would you like to receive a call?\n(yes/no)");
             //if (Console.ReadLine().ToLower().Equals("yes"))
             //{
             //    AcceptCall(caller, personReceivingACall);
@@ -61,6 +61,33 @@ namespace Practice8.controllers
             }
         }
 
+        public void SendMms(Person sender, Person messageRecipient)
+        {
+            if (sender.Phone is MobilePhoneWithColorScreen)
+            {
+                string message = GetPhoneThatCanSendMms((MobilePhoneWithColorScreen)sender.Phone).SendMms();
+                AcceptMms(sender, messageRecipient, message);
+            }
+            else
+            {
+                Console.WriteLine("{0}, your phone does not support sending MMS. Buy a new phone!", sender.Name);
+            }
+
+
+        }
+
+        private void AcceptMms(Person sender, Person messageRecipient, String message)
+        {
+            if (messageRecipient.Phone is MobilePhoneWithColorScreen)
+            {
+                GetPhoneThatCanSendMms((MobilePhoneWithColorScreen)messageRecipient.Phone).AcceptMms(message, sender);
+            }
+            else
+            {
+                Console.WriteLine("{0}, your phone does not support receiving MMS. Buy a new phone!", messageRecipient.Name);
+            }
+        }
+
         private T GetPhoneThatCanSendMessages<T>(T phone) where T : MobilePhoneWithBlackScreen
         {
             return ((T)phone);
@@ -70,6 +97,11 @@ namespace Practice8.controllers
         {
             return ((T)phone);
         }
-       
+
+        private T GetPhoneThatCanSendMms<T>(T phone) where T : MobilePhoneWithColorScreen
+        {
+            return ((T)phone);
+        }
+
     }
 }

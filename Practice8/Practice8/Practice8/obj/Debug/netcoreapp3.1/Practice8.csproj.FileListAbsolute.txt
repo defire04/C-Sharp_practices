@@ -12,3 +12,17 @@ C:\Users\DeFire04\Programing\С# University\C#\Practice8\Practice8\Practice8\obj
 C:\Users\DeFire04\Programing\С# University\C#\Practice8\Practice8\Practice8\obj\Debug\netcoreapp3.1\Practice8.dll
 C:\Users\DeFire04\Programing\С# University\C#\Practice8\Practice8\Practice8\obj\Debug\netcoreapp3.1\Practice8.pdb
 C:\Users\DeFire04\Programing\С# University\C#\Practice8\Practice8\Practice8\obj\Debug\netcoreapp3.1\Practice8.genruntimeconfig.cache
+D:\Programming\C#\Practice8\Practice8\Practice8\bin\Debug\netcoreapp3.1\Practice8.exe
+D:\Programming\C#\Practice8\Practice8\Practice8\bin\Debug\netcoreapp3.1\Practice8.deps.json
+D:\Programming\C#\Practice8\Practice8\Practice8\bin\Debug\netcoreapp3.1\Practice8.runtimeconfig.json
+D:\Programming\C#\Practice8\Practice8\Practice8\bin\Debug\netcoreapp3.1\Practice8.runtimeconfig.dev.json
+D:\Programming\C#\Practice8\Practice8\Practice8\bin\Debug\netcoreapp3.1\Practice8.dll
+D:\Programming\C#\Practice8\Practice8\Practice8\bin\Debug\netcoreapp3.1\Practice8.pdb
+D:\Programming\C#\Practice8\Practice8\Practice8\obj\Debug\netcoreapp3.1\Practice8.csproj.AssemblyReference.cache
+D:\Programming\C#\Practice8\Practice8\Practice8\obj\Debug\netcoreapp3.1\Practice8.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C#\Practice8\Practice8\Practice8\obj\Debug\netcoreapp3.1\Practice8.AssemblyInfoInputs.cache
+D:\Programming\C#\Practice8\Practice8\Practice8\obj\Debug\netcoreapp3.1\Practice8.AssemblyInfo.cs
+D:\Programming\C#\Practice8\Practice8\Practice8\obj\Debug\netcoreapp3.1\Practice8.csproj.CoreCompileInputs.cache
+D:\Programming\C#\Practice8\Practice8\Practice8\obj\Debug\netcoreapp3.1\Practice8.dll
+D:\Programming\C#\Practice8\Practice8\Practice8\obj\Debug\netcoreapp3.1\Practice8.pdb
+D:\Programming\C#\Practice8\Practice8\Practice8\obj\Debug\netcoreapp3.1\Practice8.genruntimeconfig.cache
