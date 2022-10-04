@@ -1,12 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace Practice8.models
 {
     class PushButtonPhone : RotaryPhone
     {
-
         public PushButtonPhone(long number)
              : base(number)
         {
@@ -28,7 +26,5 @@ namespace Practice8.models
         {
             Console.WriteLine("Call from Push-button Phone!");
         }
-
     }
-
 }

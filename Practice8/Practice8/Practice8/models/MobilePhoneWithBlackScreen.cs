@@ -1,13 +1,11 @@
 ﻿using Practice8.interfaces;
 using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace Practice8.models
 {
     class MobilePhoneWithBlackScreen : PushButtonPhone, ISms
     {
-
         public string ScreenResolution { get; set; }
         public double PhysicalScreenSize { get; set; }
         public string ColorOfDevice { get; set; }

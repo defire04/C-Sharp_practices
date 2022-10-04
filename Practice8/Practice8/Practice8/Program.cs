@@ -1,6 +1,5 @@
 ﻿using Practice8.controllers;
 using Practice8.models;
-using Practice8.views;
 using System;
 using System.Collections.Generic;
 
@@ -10,7 +9,7 @@ namespace Practice8
     {
         static void Main(string[] args)
         {
-            Phone dimasPhone = new MobilePhoneWithColorScreen(380979779777, "600×1200", 4.5, "black", 1200, true, 390989857675);
+            Smartphone dimasPhone = new Smartphone(380979779777, "1080x1920", 4.5, "black", 1200, true, 390989857675, true, 10, new List<Camera>() { new Camera(20), new Camera(12)});
             Person dima = new Person("Dima", dimasPhone);
 
 
@@ -21,6 +20,7 @@ namespace Practice8
             peopleWhomDimaCalled.Add(new Person("Max", new PushButtonPhone(3809822222222)));
             peopleWhomDimaCalled.Add(new Person("Sasha", new MobilePhoneWithBlackScreen(38098223333333, "480×800", 3.5, "black")));
             peopleWhomDimaCalled.Add(new Person("Mary", new MobilePhoneWithColorScreen(380982244444, "560x1000", 4.6, "orange", 1000, false)));
+            peopleWhomDimaCalled.Add(new Person("Mary", new Smartphone(380982244444, "560x1000", 4.6, "orange", 1000, false, true, 8, new List<Camera>() { new Camera(20) })));
 
 
 
@@ -34,16 +34,19 @@ namespace Practice8
                 Console.WriteLine("---------------------------");
             }
 
-
             Console.WriteLine("========================Test SMS================================");
-
             kyivstar.SendMessage(dima, peopleWhomDimaCalled[2]);
             kyivstar.SendMessage(dima, peopleWhomDimaCalled[1]);
 
             Console.WriteLine("========================Test MMS================================");
-
             kyivstar.SendMms(dima, peopleWhomDimaCalled[3]);
             kyivstar.SendMms(dima, peopleWhomDimaCalled[2]);
+
+            Console.WriteLine("========================Test Photo and Video================================");
+            dimasPhone.MakePhoto();
+            dimasPhone.RecordVideo();
+
+
         }
     }
 }

@@ -1,7 +1,6 @@
 ﻿using Practice8.interfaces;
 using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace Practice8.models
 {
@@ -17,8 +16,8 @@ namespace Practice8.models
             int numberOfColors, bool havingTwoSimCards)
           : base(number, screenResolution, physicalScreenSize, colorOfDevice)
         {
-            NumberOfColors = numberOfColors;
-            HavingTwoSimCards = havingTwoSimCards;
+            this.NumberOfColors = numberOfColors;
+            this.HavingTwoSimCards = havingTwoSimCards;
            
         }
 
@@ -26,7 +25,7 @@ namespace Practice8.models
            int numberOfColors, bool havingTwoSimCards, long secondNumber)
             : this(number, screenResolution, physicalScreenSize, colorOfDevice, numberOfColors, havingTwoSimCards)
         {
-            SecondNumber = secondNumber;
+            this.SecondNumber = secondNumber;
         }
 
         public override void AcceptCall()
@@ -69,7 +68,7 @@ namespace Practice8.models
             Console.WriteLine("Message received from {0}: " + message, sender.Name);
         }
 
-        private void NumberSelection(string choiceForWhat)
+        protected void NumberSelection(string choiceForWhat)
         {
             string userResponse;
             if (this.HavingTwoSimCards)
