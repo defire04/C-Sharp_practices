@@ -16,9 +16,19 @@ namespace Practice2
 
             double sum = 0;
 
+            do
+	        {
+                Console.WriteLine("NN");
+                nn = int.Parse(Console.ReadLine());
+	        } while (nn <= 0);
+          
 
-            nn = int.Parse(Console.ReadLine());
-            nk = int.Parse(Console.ReadLine());
+            do
+	        {
+                 nk = int.Parse(Console.ReadLine());
+	        } while (nn <= nk);
+
+           
 
             for (int k = nn; k < nk; k++)
             {
