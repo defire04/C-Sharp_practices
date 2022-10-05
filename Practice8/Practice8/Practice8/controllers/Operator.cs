@@ -1,5 +1,4 @@
-﻿
-using Practice8.models;
+﻿using Practice8.models;
 using System;
 
 namespace Practice8.controllers
@@ -70,8 +69,6 @@ namespace Practice8.controllers
             {
                 Console.WriteLine("{0}, your phone does not support sending MMS. Buy a new phone!", sender.Name);
             }
-
-
         }
 
         private void AcceptMms(Person sender, Person messageRecipient, String message)
@@ -100,6 +97,5 @@ namespace Practice8.controllers
         {
             return ((T)phone);
         }
-
     }
 }

@@ -8,7 +8,6 @@ namespace Practice8.models
     {
         public int NumberOfColors { get; set; }
         public bool HavingTwoSimCards { get; set; }
-
         public long SecondNumber { get; set; }
 
 

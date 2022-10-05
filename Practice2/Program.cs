@@ -21,12 +21,13 @@ namespace Practice2
                 Console.WriteLine("NN");
                 nn = int.Parse(Console.ReadLine());
 	        } while (nn <= 0);
-          
+           
 
             do
 	        {
+                Console.WriteLine("NK");
                  nk = int.Parse(Console.ReadLine());
-	        } while (nn <= nk);
+	        } while (nn >= nk);
 
            
 

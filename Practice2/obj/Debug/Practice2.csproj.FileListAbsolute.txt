@@ -4,3 +4,10 @@ C:\Users\DeFire04\Programing\С# University\PracticalTask\Practice2\bin\Debug\Pr
 C:\Users\DeFire04\Programing\С# University\PracticalTask\Practice2\obj\Debug\Practice2.csproj.CoreCompileInputs.cache
 C:\Users\DeFire04\Programing\С# University\PracticalTask\Practice2\obj\Debug\Practice2.exe
 C:\Users\DeFire04\Programing\С# University\PracticalTask\Practice2\obj\Debug\Practice2.pdb
+D:\Programming\C#\Practice2\bin\Debug\Practice2.exe.config
+D:\Programming\C#\Practice2\bin\Debug\Practice2.exe
+D:\Programming\C#\Practice2\bin\Debug\Practice2.pdb
+D:\Programming\C#\Practice2\obj\Debug\Practice2.csproj.AssemblyReference.cache
+D:\Programming\C#\Practice2\obj\Debug\Practice2.csproj.CoreCompileInputs.cache
+D:\Programming\C#\Practice2\obj\Debug\Practice2.exe
+D:\Programming\C#\Practice2\obj\Debug\Practice2.pdb
