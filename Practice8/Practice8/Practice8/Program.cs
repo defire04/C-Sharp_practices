@@ -43,7 +43,6 @@ namespace Practice8
             Console.WriteLine("========================Test Photo and Video================================");
             dimasPhone.MakePhoto();
             dimasPhone.RecordVideo();
-
         }
     }
 }
