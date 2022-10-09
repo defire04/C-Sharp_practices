@@ -40,6 +40,12 @@ namespace Practice2
 
 
             Console.ReadKey();
+
+
         }
-    }
+
+        
+
 }
+ 
+

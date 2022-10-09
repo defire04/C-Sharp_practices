@@ -68,22 +68,8 @@ namespace Practice6
         static string flip(double doubl)
         {
             string [] strArr = doubl.ToString().Split(',');
-            string result = "";
-
-            int temp;
-            foreach(string i in strArr) {
-                temp = int.Parse(i);
-                while (temp != 0)
-                {
-                    result += temp % 10;
-                    temp /= 10;
-                }
-
-                result += ".";
-            }
-
-
-            return result.Substring(0, result.Length - 1);
+            return flip(strArr[0]) + "." + flip(strArr[1]);
+            
         }
 
         static string flip(string str, char magicSymbol)
