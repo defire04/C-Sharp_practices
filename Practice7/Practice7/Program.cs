@@ -41,7 +41,6 @@ namespace Practice7
                 count = 0;
             }
 
-
             foreach (var i in result) {
                 Console.WriteLine($"elements with length {i.Key} equals {i.Value}");
             }

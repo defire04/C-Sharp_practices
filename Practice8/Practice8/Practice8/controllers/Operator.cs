@@ -1,5 +1,6 @@
 ﻿using Practice8.models;
 using System;
+using System.Collections.Generic;
 
 namespace Practice8.controllers
 {
@@ -42,8 +43,6 @@ namespace Practice8.controllers
             {
                 Console.WriteLine("{0}, your phone does not support sending messages. Buy a new phone!", sender.Name);
             }
-           
-
         }
 
         private void AcceptMessage(Person sender, Person messageRecipient, String message)
@@ -60,6 +59,7 @@ namespace Practice8.controllers
 
         public void SendMms(Person sender, Person messageRecipient)
         {
+            //Phone a = new Smartphone();
             if (sender.Phone is MobilePhoneWithColorScreen)
             {
                 string message = GetPhoneThatCanSendMms((MobilePhoneWithColorScreen)sender.Phone).SendMms();

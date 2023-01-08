@@ -40,10 +40,6 @@ namespace Practice8
 
 
 
-
-
-
-
             Console.ReadKey();
         }
 

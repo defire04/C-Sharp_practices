@@ -12,6 +12,8 @@ namespace Practice8
             Smartphone dimasPhone = new Smartphone(380979779777, "1080x1920", 4.5, "black", 1200, true, 390989857675, true, 10, new List<Camera>() { new Camera(20), new Camera(12)});
             Person dima = new Person("Dima", dimasPhone);
 
+           
+
             Operator kyivstar = new Operator();
 
             List<Person> peopleWhomDimaCalled = new List<Person>();
@@ -43,6 +45,9 @@ namespace Practice8
             Console.WriteLine("========================Test Photo and Video================================");
             dimasPhone.MakePhoto();
             dimasPhone.RecordVideo();
+
+
+            
         }
     }
 }
