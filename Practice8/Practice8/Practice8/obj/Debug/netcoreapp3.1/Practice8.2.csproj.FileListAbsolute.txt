@@ -1,0 +1,14 @@
+D:\Programming\C#\Practice8\Practice8\Practice8\bin\Debug\netcoreapp3.1\Practice8.2.exe
+D:\Programming\C#\Practice8\Practice8\Practice8\bin\Debug\netcoreapp3.1\Practice8.2.deps.json
+D:\Programming\C#\Practice8\Practice8\Practice8\bin\Debug\netcoreapp3.1\Practice8.2.runtimeconfig.json
+D:\Programming\C#\Practice8\Practice8\Practice8\bin\Debug\netcoreapp3.1\Practice8.2.runtimeconfig.dev.json
+D:\Programming\C#\Practice8\Practice8\Practice8\bin\Debug\netcoreapp3.1\Practice8.2.dll
+D:\Programming\C#\Practice8\Practice8\Practice8\bin\Debug\netcoreapp3.1\Practice8.2.pdb
+D:\Programming\C#\Practice8\Practice8\Practice8\obj\Debug\netcoreapp3.1\Practice8.2.csproj.AssemblyReference.cache
+D:\Programming\C#\Practice8\Practice8\Practice8\obj\Debug\netcoreapp3.1\Practice8.2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C#\Practice8\Practice8\Practice8\obj\Debug\netcoreapp3.1\Practice8.2.AssemblyInfoInputs.cache
+D:\Programming\C#\Practice8\Practice8\Practice8\obj\Debug\netcoreapp3.1\Practice8.2.AssemblyInfo.cs
+D:\Programming\C#\Practice8\Practice8\Practice8\obj\Debug\netcoreapp3.1\Practice8.2.csproj.CoreCompileInputs.cache
+D:\Programming\C#\Practice8\Practice8\Practice8\obj\Debug\netcoreapp3.1\Practice8.2.dll
+D:\Programming\C#\Practice8\Practice8\Practice8\obj\Debug\netcoreapp3.1\Practice8.2.pdb
+D:\Programming\C#\Practice8\Practice8\Practice8\obj\Debug\netcoreapp3.1\Practice8.2.genruntimeconfig.cache

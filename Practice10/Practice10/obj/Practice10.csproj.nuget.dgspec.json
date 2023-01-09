@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\C#\\Practice8\\Practice8\\Practice8\\Practice8.csproj": {}
+    "D:\\Programming\\C#\\Practice10\\Practice10\\Practice10.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\C#\\Practice8\\Practice8\\Practice8\\Practice8.csproj": {
+    "D:\\Programming\\C#\\Practice10\\Practice10\\Practice10.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\C#\\Practice8\\Practice8\\Practice8\\Practice8.csproj",
-        "projectName": "Practice8",
-        "projectPath": "D:\\Programming\\C#\\Practice8\\Practice8\\Practice8\\Practice8.csproj",
+        "projectUniqueName": "D:\\Programming\\C#\\Practice10\\Practice10\\Practice10.csproj",
+        "projectName": "Practice10",
+        "projectPath": "D:\\Programming\\C#\\Practice10\\Practice10\\Practice10.csproj",
         "packagesPath": "C:\\Users\\DeFire04\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\C#\\Practice8\\Practice8\\Practice8\\obj\\",
+        "outputPath": "D:\\Programming\\C#\\Practice10\\Practice10\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DeFire04\\AppData\\Roaming\\NuGet\\NuGet.Config",
