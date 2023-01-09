@@ -1,0 +1,13 @@
+D:\Programming\C#\Practice11\Practice11\bin\Debug\netcoreapp3.1\Practice11.exe
+D:\Programming\C#\Practice11\Practice11\bin\Debug\netcoreapp3.1\Practice11.deps.json
+D:\Programming\C#\Practice11\Practice11\bin\Debug\netcoreapp3.1\Practice11.runtimeconfig.json
+D:\Programming\C#\Practice11\Practice11\bin\Debug\netcoreapp3.1\Practice11.runtimeconfig.dev.json
+D:\Programming\C#\Practice11\Practice11\bin\Debug\netcoreapp3.1\Practice11.dll
+D:\Programming\C#\Practice11\Practice11\bin\Debug\netcoreapp3.1\Practice11.pdb
+D:\Programming\C#\Practice11\Practice11\obj\Debug\netcoreapp3.1\Practice11.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C#\Practice11\Practice11\obj\Debug\netcoreapp3.1\Practice11.AssemblyInfoInputs.cache
+D:\Programming\C#\Practice11\Practice11\obj\Debug\netcoreapp3.1\Practice11.AssemblyInfo.cs
+D:\Programming\C#\Practice11\Practice11\obj\Debug\netcoreapp3.1\Practice11.csproj.CoreCompileInputs.cache
+D:\Programming\C#\Practice11\Practice11\obj\Debug\netcoreapp3.1\Practice11.dll
+D:\Programming\C#\Practice11\Practice11\obj\Debug\netcoreapp3.1\Practice11.pdb
+D:\Programming\C#\Practice11\Practice11\obj\Debug\netcoreapp3.1\Practice11.genruntimeconfig.cache

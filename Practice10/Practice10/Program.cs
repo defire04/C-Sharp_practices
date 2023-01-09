@@ -19,7 +19,7 @@ namespace Practice10
             new int[] { 1, 2, 3, 4 }.Flip().PrintArr();
             new int[] { 1, 2, 3, 4 }.MakePairedElementsFirst().PrintArr();
 
-            Console.ReadKey();
+           Console.ReadKey();
         }
     }
     // 7. Створити розширяючий метод для масиву цілих чисел, який спочатку виводить парні елементи, а потім непарні. 
