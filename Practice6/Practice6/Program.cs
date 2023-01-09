@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Practice6
 {
     class Program
@@ -67,7 +68,7 @@ namespace Practice6
 
         static string flip(double doubl)
         {
-            string [] strArr = doubl.ToString().Split(',');
+            string[] strArr = doubl.ToString().Split(new char[] { ',', '.' });
             return flip(strArr[0]) + "." + flip(strArr[1]);
             
         }

@@ -1,0 +1,14 @@
+D:\Programming\C#\Practice10\Practice10\bin\Debug\netcoreapp3.1\Practice10.exe
+D:\Programming\C#\Practice10\Practice10\bin\Debug\netcoreapp3.1\Practice10.deps.json
+D:\Programming\C#\Practice10\Practice10\bin\Debug\netcoreapp3.1\Practice10.runtimeconfig.json
+D:\Programming\C#\Practice10\Practice10\bin\Debug\netcoreapp3.1\Practice10.runtimeconfig.dev.json
+D:\Programming\C#\Practice10\Practice10\bin\Debug\netcoreapp3.1\Practice10.dll
+D:\Programming\C#\Practice10\Practice10\bin\Debug\netcoreapp3.1\Practice10.pdb
+D:\Programming\C#\Practice10\Practice10\obj\Debug\netcoreapp3.1\Practice10.csproj.AssemblyReference.cache
+D:\Programming\C#\Practice10\Practice10\obj\Debug\netcoreapp3.1\Practice10.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C#\Practice10\Practice10\obj\Debug\netcoreapp3.1\Practice10.AssemblyInfoInputs.cache
+D:\Programming\C#\Practice10\Practice10\obj\Debug\netcoreapp3.1\Practice10.AssemblyInfo.cs
+D:\Programming\C#\Practice10\Practice10\obj\Debug\netcoreapp3.1\Practice10.csproj.CoreCompileInputs.cache
+D:\Programming\C#\Practice10\Practice10\obj\Debug\netcoreapp3.1\Practice10.dll
+D:\Programming\C#\Practice10\Practice10\obj\Debug\netcoreapp3.1\Practice10.pdb
+D:\Programming\C#\Practice10\Practice10\obj\Debug\netcoreapp3.1\Practice10.genruntimeconfig.cache
