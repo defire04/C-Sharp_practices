@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\C#\\Practice8\\Practice8\\Practice8\\Practice8.2.csproj",
+      "projectUniqueName": "D:\\Programming\\C#\\Practice8\\Practice8.2\\Practice8\\Practice8.2.csproj",
       "projectName": "Practice8.2",
-      "projectPath": "D:\\Programming\\C#\\Practice8\\Practice8\\Practice8\\Practice8.2.csproj",
+      "projectPath": "D:\\Programming\\C#\\Practice8\\Practice8.2\\Practice8\\Practice8.2.csproj",
       "packagesPath": "C:\\Users\\DeFire04\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\C#\\Practice8\\Practice8\\Practice8\\obj\\",
+      "outputPath": "D:\\Programming\\C#\\Practice8\\Practice8.2\\Practice8\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DeFire04\\AppData\\Roaming\\NuGet\\NuGet.Config",
