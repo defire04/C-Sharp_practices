@@ -1,7 +1,4 @@
 ﻿using Practice11.models;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Practice11.controllers
 {
